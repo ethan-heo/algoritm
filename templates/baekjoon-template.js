@@ -12,9 +12,7 @@ function solution(input) {
 	// const [a, b] = input.split(' ').map(Number);
 
 	// 3. 여러 줄 입력 - 개행 문자로 구분
-	// const lines = input.split('\\n');
-	// const n = parseInt(lines[0]);
-	// const arr = lines[1].split(' ').map(Number);
+	// const lines = input.trim().split('\n').map((str) => str.trim());
 
 	// 4. 여러 테스트 케이스
 	// const lines = input.split('\\n');
